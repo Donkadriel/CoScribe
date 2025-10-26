@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    height: 100dvh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 40px 20px;
+    border-bottom: 2px solid rgb(228, 226, 226);
+
+    p{
+        font-size: 30px;
+        color: aqua;
+        font-weight: 900;
+    }
+
+    nav{
+        justify-self: center;
+        
+        ul{
+            display: flex;
+            list-style-type: none;
+
+            a{
+                text-decoration: 0;
+                padding: 10px;
+                color: black;
+            }
+
+            a:hover{
+                color: aqua;
+            }
+        }
+    }
+
+    div{
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        .fa-search{
+            position: absolute;
+            left: -10px;
+        }
+
+        i{
+            padding: 0 20px;
+        }
+
+        input{
+            height: 40px;
+            padding: 20px 0;
+            border-radius: 5px;
+            width: 235px;
+            padding-left: 30px;
+            border: 1px solid rgb(228, 226, 226);
+        }
+        img{
+            width: 50px;
+            border-radius: 50%;
+            
+        }
+    }
+}
+
+
+.sec1{
+    display: flex;
+}
+.sec1-div1{
+    width: clamp(140px, 30dvw ,300px);
+    border-right: 2px solid rgb(228, 226, 226);
+    border-bottom: 2px solid rgb(228, 226, 226);
+
+    ul{
+        .analytics{
+            background-color:  rgb(228, 226, 226);
+        }
+
+        a{
+                text-decoration: none;
+                color: black;
+
+                li{
+                    border-radius: 5px;
+                    padding: 10px 10px;
+                    margin: 0 5px;
+                    text-decoration: none;
+                    color: black;
+                }
+                li:hover{
+                    background-color:  rgba(228, 226, 226, 0.5);
+                }
+                
+        }
+    }
+}
+.sec1-div2{
+    width: 100dvw;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10dvw;
+
+    ul{
+        display: flex;
+        list-style-type: none;
+        
+        a{
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+        }
+
+    }
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    div{
+        background-color: red;
+        height: 200px;
+    }
+}
+.grid-container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
