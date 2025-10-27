@@ -16,7 +16,7 @@
 |-------|----------------|--------|
 | **Offordile Obumneme Dennis** *(Team Lead)* | Navbar, Author Analytics | [Donkadriel](https://github.com/Donkadriel)|
 | | | |
-| | | |
+| **Dominic Soudo**                           |Admin-Dashboard           | [Dominic-Soudo](https://github.com/Dominic-Soudo)|
 | | | |
 | | | |
 | | | |
