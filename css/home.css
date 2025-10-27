@@ -133,7 +133,46 @@ header{
         cursor: pointer;
     }
 }
+ .featured{
+    width:auto;
+    text-align: left;
+    margin-bottom: 5px;
+ }
 
+ .display-grid{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+gap:24px;
+margin-top: 16px;
+ }
+ .article-card{
+    background:#fff;
+    border-radius: 12px;
+    overflow: hidden;
+    padding-bottom: 16px;
+ }
+ .article-card img{
+    width:100%;
+    height:150px;
+    object-fit: cover;
+ }
+ .article-card h3{
+    padding: 12px 16px 0 16px;
+    font-size: 16px;
+ }
+ .article card p{
+    padding: 0 16px;
+    color:darkgray ;
+    font-size: 14px; 
+ }
+ .btn{
+    background-color: lightgray; 
+        color:white;
+        border: 5px;
+        padding:10px;
+        border-radius: 20px;
+        cursor: pointer;
+ }
 footer{
     display: flex;
     justify-content: space-between;
