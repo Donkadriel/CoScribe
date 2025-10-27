@@ -114,6 +114,24 @@ header{
 
 .sec1-div2{
     width: 100dvw;
+    background-color: lab(87.94% -1.14 -10.38);
+    text-align:center;
+    padding:none;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin:20px;
+    border-radius: 10px;
+    .h1{
+        font-size:2px;
+    }
+    .nav-btn{
+        background-color: #007aff; 
+        color:white;
+        border: 5px;
+        padding:10px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
 }
 
 footer{
