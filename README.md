@@ -17,7 +17,7 @@
 | **Offordile Obumneme Dennis** *(Team Lead)* | Navbar, Author Analytics | [Donkadriel](https://github.com/Donkadriel)|
 | **Ekanem Favour**|Home Page/Landing Page  | [fay22ekanem]. |
 | | | |
-| | | |
+| **Dominic Soudo**                           |Admin-Dashboard           | [Dominic-Soudo](https://github.com/Dominic-Soudo)|
 | | | |
 | | | |
 | | | |

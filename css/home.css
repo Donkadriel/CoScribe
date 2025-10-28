@@ -19,10 +19,21 @@ header{
     border-bottom: 2px solid rgb(228, 226, 226);
 
     p{
-        font-size: 30px;
-        color: aqua;
-        font-weight: 900;
+        font-size: 40px;
+        color:  #2EC4E6;
+        font-weight: 700;
+        display: flex;
+
+            img{
+            background-color: #2EC4E6;
+            color: white;
+            margin-right: 10px;
+            width: 60px;
+            padding: 10px;
+            border-radius: 10px;
+        }
     }
+
 
     nav{
         justify-self: center;
@@ -38,10 +49,10 @@ header{
             }
 
             a:hover{
-                color: aqua;
+                color:  #2EC4E6;
             }
             .home{
-                color: aqua;
+                color:  #2EC4E6;
             }
         }
     }
@@ -68,11 +79,21 @@ header{
             padding-left: 30px;
             border: 1px solid rgb(228, 226, 226);
         }
-        img{
-            width: 50px;
+        a{
+            text-decoration: none;
+
+            img{
+            width: 45px;
             border-radius: 50%;
             
+            }
+
+            .bell{
+                width: 20px;
+                margin: 0 25px;
+            }
         }
+        
     }
 }
 
@@ -102,6 +123,12 @@ header{
                     margin: 0 5px;
                     text-decoration: none;
                     color: black;
+                    display: flex;
+
+                    img{
+                        width: 30px;
+                        padding-right: 5px;
+                    }
                 }
                 li:hover{
                     background-color:  rgba(228, 226, 226, 0.5);
@@ -239,6 +266,10 @@ footer{
             text-decoration: none;
             color: black;
             padding: 10px;
+
+            img{
+                width: 20px;
+            }
         }
 
     }

@@ -19,9 +19,19 @@ header{
     border-bottom: 2px solid rgb(228, 226, 226);
 
     p{
-        font-size: 30px;
-        color: aqua;
-        font-weight: 900;
+        font-size: 40px;
+        color:  #2EC4E6;
+        font-weight: 700;
+        display: flex;
+
+            img{
+            background-color: #2EC4E6;
+            color: white;
+            margin-right: 10px;
+            width: 60px;
+            padding: 10px;
+            border-radius: 10px;
+        }
     }
 
     nav{
@@ -38,7 +48,10 @@ header{
             }
 
             a:hover{
-                color: aqua;
+                color:  #2EC4E6;
+            }
+            .home{
+                color:  #2EC4E6;
             }
         }
     }
@@ -65,10 +78,20 @@ header{
             padding-left: 30px;
             border: 1px solid rgb(228, 226, 226);
         }
-        img{
-            width: 50px;
+        
+        a{
+            text-decoration: none;
+
+            img{
+            width: 45px;
             border-radius: 50%;
             
+            }
+
+            .bell{
+                width: 20px;
+                margin: 0 25px;
+            }
         }
     }
 }
@@ -97,6 +120,12 @@ header{
                     margin: 0 5px;
                     text-decoration: none;
                     color: black;
+                    display: flex;
+
+                    img{
+                        width: 30px;
+                        padding-right: 5px;
+                    }
                 }
                 li:hover{
                     background-color:  rgba(228, 226, 226, 0.5);
@@ -107,6 +136,75 @@ header{
 }
 .sec1-div2{
     width: 100dvw;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    img{
+        width: 28px;
+    }
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+
+    
+    .chart-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    width: 420px;
+
+    h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+    }
+
+   canvas {
+   width: 100% !important;
+   height: 260px !important;
+   }
+   }
+}
+
+/* .grid-container3{
+   
+} */
+
+
+
+.engagement-container {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  width: 440px;
+
+  .engagement-title {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+#engagementChart {
+  width: 100% !important;
+  height: 260px !important;
+}
+}
+
+
+
+
+
+
+.grid-container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 footer{
@@ -122,25 +220,11 @@ footer{
             text-decoration: none;
             color: black;
             padding: 10px;
+
+            img{
+                width: 20px;
+            }
         }
 
     }
-}
-
-.grid-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-.grid-container2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
-    div{
-        background-color: red;
-        height: 200px;
-    }
-}
-.grid-container3{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 }
