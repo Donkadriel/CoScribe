@@ -20,7 +20,7 @@ header{
 
     p{
         font-size: 30px;
-        color: aqua;
+        color:  #2EC4E6;
         font-weight: 900;
     }
 
@@ -38,11 +38,10 @@ header{
             }
 
             a:hover{
-                color: aqua;
+                color:  #2EC4E6;
             }
-            .writing{
-                color: aqua;
-
+            .home{
+                color:  #2EC4E6;
             }
         }
     }

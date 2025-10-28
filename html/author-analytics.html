@@ -65,10 +65,6 @@
             </div>
             <div class="sec1-div2">
                 
-                <!-- Paste your code here -->
-
-                
-                <!-- Paste your code here -->
 
                 <h1>Author Analytics Dashboard</h1>
                 <p>Dive into your content's performance and audience engagement.</p>
@@ -85,7 +81,7 @@
                     </div>
                     <div>
                         <p>
-                            <i class="fa-solid fa-book"></i> Total Likes
+                           <img src="../icons/v" alt="">Total Likes
                         </p> 
                             <h3>5.2K</h3>
                             <p>+2.1% vl. ;ast month</p>
@@ -109,8 +105,14 @@
 
                 <h2>Article Performance Trends</h2>
                 <div class="grid-container2">
-                    <div></div>
-                    <div></div>
+                     <div class="chart-card">
+                        <h3>Monthly Article Views</h3>
+                        <canvas id="articleChart"></canvas>
+                     </div>
+                    <div class="engagement-container">
+                        <h3 class="engagement-title">Likes & Shares by Top Articles</h3>
+                        <canvas id="engagementChart"></canvas>
+                    </div>
                 </div>
 
                 <h2>Top Performing Article</h2>
@@ -165,5 +167,11 @@
             </div>
         </footer>
     </div>
+
+
+    <!-- Importing Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Linking my js file -->
+    <script src="../js/author-analytics.js"></script>
 </body>
 </html>

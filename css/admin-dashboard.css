@@ -20,6 +20,13 @@ header{
 
     p{
         font-size: 30px;
+        color:  #2EC4E6;
+        font-weight: 900;
+    }
+
+    
+    p{
+        font-size: 30px;
         color: aqua;
         font-weight: 900;
     }
