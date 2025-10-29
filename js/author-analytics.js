@@ -7,7 +7,7 @@ new Chart(ctx, {
     datasets: [
       {
         label: "Total Views",
-        data: [1800, 2200, 1900, 2800, 2600, 3500, 3400, 3100],
+        data: [1800,2150, 2500, 2100, 3200, 2800, 3500, 3000],
         borderColor: "#000",
         borderWidth: 1.8,
         fill: false,
@@ -16,8 +16,8 @@ new Chart(ctx, {
       },
       {
         label: "Unique Views",
-        data: [900, 1300, 1100, 1800, 1600, 2000, 2100, 1900],
-        borderColor: "#555",
+        data: [1200, 1450, 1700, 1450, 2100, 2000, 2400, 2000],
+        borderColor: "#000",
         borderWidth: 1.8,
         fill: false,
         tension: 0.4,
@@ -75,7 +75,7 @@ new Chart(engagementCtx, {
       {
         label: "Shares",
         data: [150, 120, 180, 100, 130],
-        backgroundColor: "#00CFEA", // chart cyan
+        backgroundColor: "#3b3b3bff", // chart cyan
         borderRadius: 4,
         barThickness: 30
       }

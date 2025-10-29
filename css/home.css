@@ -16,7 +16,7 @@ header{
     align-items: center;
     height: 60px;
     padding: 40px 20px;
-    border-bottom: 2px solid rgb(228, 226, 226);
+    border-bottom: 2px solid rgba(243, 243, 243, 0.5);
 
     p{
         font-size: 40px;
@@ -103,8 +103,7 @@ header{
 }
 .sec1-div1{
     width: clamp(140px, 30dvw ,300px);
-    border-right: 2px solid rgb(228, 226, 226);
-    border-bottom: 2px solid rgb(228, 226, 226);
+    border: 2px solid rgba(228, 226, 226, 0.562);
 
     ul{
         margin-top: 50px;
