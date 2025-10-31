@@ -63,18 +63,25 @@ form input {
 }
 
 form button{
-  border-radius: 6px; 
+    border-radius: 6px; 
   border-width: 1px;
   border-style: solid;
-  width: 352px; 
+  
+   width: 352px; 
   height: 45px; 
-  padding-left: 12px; 
-  padding-right: 12px; 
   font-family: Open Sans; 
   font-size: 14px; 
   line-height: 22px; 
   font-weight:400;
    background-color: #179FBDFF;
+    a{
+       
+        padding: 12px 155px;
+        color: white;
+        background-color: #179FBDFF;
+   
+
+    }
 }
 
 .footer{
