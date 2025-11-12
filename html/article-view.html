@@ -3,116 +3,253 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+    <title>Article view</title>
     <link rel="stylesheet" href="../css/article-view.css">
-     <link rel="shortcut icon" href="../icons/book-open.png" type="image/x-icon">
-    <title>CoScribe</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
+    <!-- Top Navigation -->
+    <header class="top-nav">
+        <div class="nav-left">
+            <div class="logo">
+                <img src="../avatar/logo.png" alt="logo">
+                <span class="blcl">CoScribe</span>
+            </div>
+        </div>
+        <nav class="nav-center">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Explore</a>
+            <a href="#" class="nav-link">Write</a>
+        </nav>
+        <div class="nav-right">
+            <div class="search-box">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="m21 21-4.35-4.35"/>
+                </svg>
+                <input type="text" placeholder="Search articles, tags, or authors...">
+            </div>
+            <button class="icon-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+                    <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+                </svg>
+            </button>
+            <img src="https://i.pravatar.cc/40?img=5" alt="Profile" class="profile-pic">
+        </div>
+    </header>
+
     <div class="container">
-        <header>
-            <p><img src="../icons/book-open.png" alt=""></i>CoScribe</p>
-            <nav>
-                <ul>
-                    <li><a href="./home.html">Home</a></li>
-                    <li><a href="">Explore</a></li>
-                    <li><a href="./writin.html">Write</a></li>
-                </ul>
+        <!-- Left Sidebar -->
+        <aside class="left-sidebar">
+            <div class="sidebar-header">Article View</div>
+            <nav class="sidebar-nav">
+                <a href="home.html" class="sidebar-link">
+                    <i data-lucide="book"></i>
+                    Home
+                </a>
+                <a href="#" class="sidebar-link">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                        <circle cx="12" cy="7" r="4"/>
+                    </svg>
+                    My Profile
+                </a>
+                <a href="#" class="sidebar-link">
+                    <i data-lucide="edit-3"></i>
+                    My Articles
+                </a>
+                <a href="author-analytics.html" class="sidebar-link">
+                    <i data-lucide="bar-chart-3"></i>
+                    Analytics
+                </a>
+                <a href="admin-dashboard.html" class="sidebar-link">
+                    <i data-lucide="gauge"></i>
+                    Admin Dashboard
+                </a>
             </nav>
-            <div>
-                <i class="fa-solid fa-search"></i>
-                <input type="text" placeholder="Search articles, tags, or authors">
-                <a href=""><img class="bell" src="../icons/bell.png" alt=""></a>
-                <a href="./user.html"><img src="./avatar/androgynous-avatar-non-binary-queer-person (1).jpg" alt=""></a>
-            </div>
-        </header>
+        </aside>
 
-
-        <section class="sec1">
-            <div class="sec1-div1">
-                <nav>
-                    <ul>
-
-                        <a href="./home.html">
-                            <li class="home2">
-                                <img src="../icons/book-open-bl.png" alt="">Home
-                            </li>
-                        </a>
-            
-                        <a href="./user-management.html">
-                            <li>
-                                <img src="../icons/user.png" alt="">My Profile
-                            </li>
-                        </a>
-                        
-                        <a href="#">
-                            <li class="article">
-                                <img src="../icons/square-pen.png" alt="">My Articles
-                            </li>
-                        </a>
-                            
-                        <a href="./author-analytics.html">
-                            <li>
-                                <img src="../icons/chart-column-increasing.png" alt="">Analytics
-                            </li>
-                        </a>
-                        
-                        <a href="./admin-dashboard.html">
-                            <li>
-                                <img src="../icons/gauge.png" alt="">Admin Dashboard
-                            </li>
-                        </a>
-
-                    </ul>
-                </nav>
-            </div>
-            <div class="sec1-div2">
+        <!-- Main Content -->
+        <main class="main-content">
+            <article class="article">
+                <!-- Article Title -->
+                <h1 class="article-title">The Art of Minimalist Living: Finding Freedom in Less</h1>
                 
-                <!-- Paste your code here -->
+                <!-- Article Meta -->
+                <div class="article-meta">
+                    <span class="meta-text">Published on October 20, 2023 • 10 min read</span>
+                </div>
 
-                
-                <!-- Paste your code here -->
+                <!-- Author Section -->
+                <div class="author-section">
+                    <img src="https://i.pravatar.cc/50?img=8" alt="Jane Doe" class="author-avatar">
+                    <div class="author-info">
+                        <h3 class="author-name">Jane Doe</h3>
+                        <p class="author-bio">Passionate writer exploring mindfulness, sustainable living, and the journey to a more intentional life.</p>
+                    </div>
+                    <button class="follow-btn">Follow</button>
+                </div>
 
-            </div>
-        </section>
+                <!-- Featured Image -->
+                <div class="featured-image">
+                     <img src="../avatar/minilive.png" alt="Minimalist living room">
+                </div>
 
+                <!-- Article Content -->
+                <div class="article-content">
+                    <p>In a world constantly pushing us to accumulate more, the philosophy of minimalist living offers a refreshing counter-narrative. It's not about deprivation, but rather about intentionality — carefully choosing what we allow into our lives, and in doing so, creating space for what truly matters.</p>
 
-        <footer>
-            <div class="footer-div1">
-                <ul>
-                    <li>
-                        <a href="">Podcast</a>
-                    </li>
-                    <li>
-                        <a href="">Resources</a>
-                    </li>
-                    <li>
-                        <a href="">Community</a>
-                    </li>
-                </ul>
-            </div>
+                    <h2>The Core Principles of Minimalism</h2>
+                    <p>At its heart, minimalism is a tool to rid yourself of life's excess in favor of focusing on what's important. This can manifest in various ways, from decluttering your home to simplifying your daily routine, and even re-evaluating your digital consumption.</p>
 
-            <div class="footer-div2">
-                <ul>
-                    <li>
-                        <a href=""><img src="../icons/facebook.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href=""><img src="../icons/twitter.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href=""><img src="../icons/linkedin.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href=""><img src="../icons/github.png" alt=""></a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
+                    <h2>Decluttering Your Physical Space</h2>
+                    <p>The most commonly recognized aspect of minimalism involves physical possessions. This often begins with a thorough decluttering process, where items are evaluated for their utility, beauty, or sentimental value. The goal is to keep only what serves a purpose and brings joy, letting go of the rest. This isn't just about tidiness; it's about reducing decision fatigue and creating a calm environment.</p>
+
+                    <h2>Simplifying Your Digital Life</h2>
+                    <p>In our modern age, digital clutter can be just as overwhelming as physical clutter. Unnecessary apps, overflowing inboxes, and endless social media feeds can drain our attention and mental energy. A minimalist approach to digital life involves:</p>
+                    
+                    <p>Deleting unused apps and unsubscribing from unwanted emails.<br>
+                    Organizing files and photos to reduce digital chaos.<br>
+                    Setting boundaries for screen time and intentional social media use.</p>
+
+                    <h2>Embracing Experiences Over Possessions</h2>
+                    <p>Ultimately, minimalism encourages a shift in values. Instead of chasing the next material acquisition, it prompts us to invest in experiences — travel, learning, relationships, and personal growth. These are the things that truly enrich our lives and create lasting memories.</p>
+
+                    <p>By embracing minimalist principles, we can cultivate a life that is less about having and more about being. It's a journey towards greater freedom, clarity, and contentment.</p>
+                </div>
+
+                <!-- Article Footer Actions -->
+                <div class="article-actions">
+                    <div class="action-left">
+                        <button class="action-btn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                            </svg>
+                            2.0k
+                        </button>
+                        <button class="action-btn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            </svg>
+                            2
+                        </button>
+                    </div>
+                    <button class="share-btn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="18" cy="5" r="3"/>
+                            <circle cx="6" cy="12" r="3"/>
+                            <circle cx="18" cy="19" r="3"/>
+                            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+                            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                        </svg>
+                        Share
+                    </button>
+                </div>
+
+                <!-- Comments Section -->
+                <div class="comments-section">
+                    <h2 class="comments-title">Comments</h2>
+                    
+                    <!-- Comment Input -->
+                    <div class="comment-input">
+                        <input type="text" placeholder="Write a comment...">
+                        <button class="send-btn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"/>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- Comments List -->
+                    <div class="comments-list">
+                        <!-- Comment 1 -->
+                        <div class="comment">
+                            <img src="https://i.pravatar.cc/40?img=10" alt="Alice Wonderland" class="comment-avatar">
+                            <div class="comment-body">
+                                <div class="comment-header">
+                                    <span class="comment-author">Alice Wonderland</span>
+                                    <span class="comment-time">2 hours ago</span>
+                                </div>
+                                <p class="comment-text">This article perfectly captures the essence of minimalist living. I particularly enjoyed the practical tips for decluttering digital spaces. Thank you for sharing!</p>
+                                <button class="reply-btn"><span class="inver">&#8617;</span> Reply</button>
+                            </div>
+                        </div>
+
+                        <!-- Comment 2 (Nested Reply) -->
+                        <div class="comment reply">
+                            <img src="https://i.pravatar.cc/40?img=8" alt="Jane Doe" class="comment-avatar">
+                            <div class="comment-body">
+                                <div class="comment-header">
+                                    <span class="comment-author">Jane Doe</span>
+                                    <span class="comment-time">1 hour ago</span>
+                                </div>
+                                <p class="comment-text">@AliceWonderland Glad you found it helpful! Digital decluttering is often overlooked but crucial.</p>
+                                <button class="reply-btn"><span class="inver">&#8617;</span> Reply</button>
+                            </div>
+                        </div>
+
+                        <!-- Comment 3 (Nested Reply) -->
+                        <div class="comment reply">
+                            <img src="https://i.pravatar.cc/40?img=12" alt="Bob The Builder" class="comment-avatar">
+                            <div class="comment-body">
+                                <div class="comment-header">
+                                    <span class="comment-author">Bob The Builder</span>
+                                    <span class="comment-time">30 minutes ago</span>
+                                </div>
+                                <p class="comment-text">I agree, the digital tips were a game changer for my workflow.</p>
+                                <button class="reply-btn"> <span class="inver">&#8617;</span> Reply</button>
+                            </div>
+                        </div>
+
+                        <!-- Comment 4 -->
+                        <div class="comment">
+                            <img src="https://i.pravatar.cc/40?img=14" alt="Charlie Chaplin" class="comment-avatar">
+                            <div class="comment-body">
+                                <div class="comment-header">
+                                    <span class="comment-author">Charlie Chaplin</span>
+                                    <span class="comment-time">1 hours ago</span>
+                                </div>
+                                <p class="comment-text">Inspiring read. It's not just about less stuff, but more intentional living. Have you considered writing about sustainable minimalism next?</p>
+                                <button class="reply-btn"><span class="inver">&#8617;</span> Reply</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right Sidebar (floating share button) -->
+                <div class="floating-share">
+                    <button class="floating-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="18" cy="5" r="3"/>
+                            <circle cx="6" cy="12" r="3"/>
+                            <circle cx="18" cy="19" r="3"/>
+                            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+                            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                        </svg>
+                    </button>
+                </div>
+            </article>
+        </main>
+
     </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#">Product</a>
+            <a href="#">Resources</a>
+            <a href="#">Community</a>
+        </div>
+        <div class="social-links">
+            <a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg></a>
+            <a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+            <a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg></a>
+            <a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"/></svg></a>
+        </div>
+    </footer>
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
 </html>

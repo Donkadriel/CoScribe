@@ -98,3 +98,14 @@ form button{
 .footer h5{
     color: #179FBDFF ;
 }
+
+a {
+    text-decoration: none;
+    color: #179FBDFF;
+}
+
+.login-btn{
+    cursor: pointer;
+    color: white;
+    background-color: #179FBDFF;
+}
