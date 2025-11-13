@@ -313,3 +313,20 @@ footer {
 
     }
 }
+@media(max-width: 320px) {
+    .wholebody {
+        flex-direction: column;
+    }
+
+    .leftside, .content-area {
+        width: 100%;
+    }
+
+    .middle-body {
+        flex-direction: column;
+    }
+
+    .middle-body-left, .middle-body-right {
+        width: 100%;
+    }
+}
