@@ -275,11 +275,3 @@ body{
     margin-bottom: 8px;
     color: #555;
 }
-@media (max-width: 768px){
-    .main-container{
-        flex-direction: column;
-    }
-    .left-column, .middle-column, .right-column{
-        width: 100%;
-    }
-}
