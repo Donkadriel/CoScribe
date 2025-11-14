@@ -14,13 +14,14 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <p><img src="../icons/book-open.png" alt=""></i>CoScribe</p>
-
+       <header>
+            <div class="logo">
+            <img src="../icons/book-open.png" alt=""><p>CoScribe</p>
+            </div> 
             <nav>
                 <ul>
-                    <li><a href="./home.html">Home</a></li>
-                    <li><a href="">Explore</a></li>
+                    <li><a class="home" href="#">Home</a></li>
+                    <li><a href="./explore-page.html">Explore</a></li>
                     <li><a href="./writing-studio.html">Write</a></li>
                 </ul>
             </nav>
@@ -28,13 +29,15 @@
                 <i class="fa-solid fa-search"></i>
                 <input type="text" placeholder="Search articles, tags, or authors">
                 <a href=""><img class="bell" src="../icons/bell.png" alt=""></a>
-                <a href="./user-profile.html"><img src="./avatar/androgynous-avatar-non-binary-queer-person (1).jpg" alt=""></a>
+                <a href="./user-profile.html"><img src="../avatar/androgynous-avatar-non-binary-queer-person (1).jpg" alt=""></a>
             </div>
         </header>
 
 
-        <section class="sec1">
-            <div class="sec1-div1">
+        <section class="wholebody">
+
+            <!-- left side bar nav -->
+            <div class="leftside-nav">
                 <nav>
                     <ul>
                         
@@ -70,14 +73,172 @@
                     </ul>
                 </nav>
             </div>
-            <div class="sec1-div2">
-                
-                <!-- Paste your code here -->
+           
+            <main class="main-content">
 
-                
-                <!-- Paste your code here -->
+    <section class="profile-header">
+        <div class="profile-avatar">
+            <img src="/avatar/confident-business-woman-portrait-smiling-face.jpg" alt="Eleanor Vance">
+        </div>
+        <div class="profile-info">
+            <h1>Eleanor Vance</h1>
+            <p>Passionate writer and storyteller, exploring the nuances of human experience through words. Specializing in science fiction and fantasy, with a keen interest in historical narratives. Always learning, always creating.</p>
+        </div>
+        <button class="edit-profile-btn">
+            <i class="fas fa-pencil-alt"></i>
+            Edit Profile
+        </button>
+    </section>
 
+    <section class="profile-stats">
+        <div class="stat-item">
+            <i class="fas fa-eye"></i>
+            <strong>125890</strong> Views
+        </div>
+        <div class="stat-item">
+            <i class="fas fa-heart"></i>
+            <strong>18765</strong> Likes
+        </div>
+        <div class="stat-item">
+            <i class="fas fa-comment"></i>
+            <strong>3421</strong> Comments
+        </div>
+    </section>
+
+    <nav class="content-tabs">
+        <ul>
+            <li class="active"><a href="#">Published Articles (5)</a></li>
+            <li><a href="#">Drafts (3)</a></li>
+            <li><a href="#">Archived Articles (2)</a></li>
+        </ul>
+    </nav>
+
+    <section class="article-grid">
+
+        <article class="article-card">
+            <div class="card-image">
+                <img src="https://via.placeholder.com/400x250" alt="The Whispers of Eldoria">
             </div>
+            <div class="card-content">
+                <h3>The Whispers of Eldoria: A Saga Begins</h3>
+                <p>Dive into a world of ancient magic and forgotten prophecies as our heroes embark on an epic quest. This is the first installment...</p>
+                <div class="card-meta">
+                    <span class="meta-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        May 15, 2024
+                    </span>
+                    <span class="meta-item">
+                        <i class="fas fa-eye"></i>
+                        52345
+                    </span>
+                    <span class="meta-item">
+                        <i class="fas fa-comment"></i>
+                        6789
+                    </span>
+                </div>
+            </div>
+        </article>
+
+        <article class="article-card">
+            <div class="card-image">
+                <img src="https://via.placeholder.com/400x250" alt="Science and Sorcery">
+            </div>
+            <div class="card-content">
+                <h3>Science and Sorcery: Bridging Two Worlds</h3>
+                <p>An analytical piece exploring the thematic connections between advanced scientific concepts and magical systems in modern...</p>
+                <div class="card-meta">
+                    <span class="meta-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        April 28, 2024
+                    </span>
+                    <span class="meta-item">
+                        <i class="fas fa-eye"></i>
+                        38760
+                    </span>
+                    <span class="meta-item">
+                        <i class="fas fa-comment"></i>
+                        4521
+                    </span>
+                </div>
+            </div>
+        </article>
+
+        <article class="article-card">
+            <div class="card-image">
+                <img src="https://via.placeholder.com/400x250" alt="Echoes of the Past">
+            </div>
+            <div class="card-content">
+                <h3>Echoes of the Past: Reimagining Historical</h3>
+                <p>A deep dive into how contemporary authors are revitalizing historical narratives with fresh perspectives and innovative...</p>
+                <div class="card-meta">
+                    <span class="meta-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        March 10, 2024
+                    </span>
+                    <span class="meta-item">
+                        <i class="fas fa-eye"></i>
+                        28910
+                    </span>
+                    <span class="meta-item">
+                        <i class="fas fa-comment"></i>
+                        3120
+                    </span>
+                </div>
+            </div>
+        </article>
+
+        <article class="article-card">
+            <div class="card-image">
+                <img src="https://via.placeholder.com/400x250" alt="Future of Narratives">
+            </div>
+            <div class="card-content">
+                <h3>The Future of Narratives: AI and Human Creativity</h3>
+                <p>Exploring the evolving landscape of storytelling in an age where artificial intelligence can generate prose. How will...</p>
+                <div class="card-meta">
+                    <span class="meta-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        February 20, 2024
+                    </span>
+                    <span class="meta-item">
+                        <i class="fas fa-eye"></i>
+                        19875
+                    </span>
+                    <span class="meta-item">
+                        <i class="fas fa-comment"></i>
+                        2210
+                    </span>
+                </div>
+            </div>
+        </article>
+
+        <article class="article-card">
+            <div class="card-image">
+                <img src="https://via.placeholder.com/400x250" alt="Crafting Characters">
+            </div>
+            <div class="card-content">
+                <h3>Crafting Compelling Characters: A Writer's Guide</h3>
+                <p>A practical guide for aspiring authors on developing three-dimensional characters that resonate with readers. From...</p>
+                <div class="card-meta">
+                    <span class="meta-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        January 5, 2024
+                    </span>
+                    <span class="meta-item">
+                        <i class="fas fa-eye"></i>
+                        14500
+                    </span>
+                    <span class="meta-item">
+                        <i class="fas fa-comment"></i>
+                        1890
+                    </span>
+                </div>
+            </div>
+        </article>
+        
+    </section>
+
+</main>
+
         </section>
 
 
@@ -91,7 +252,7 @@
                         <a href="">Resources</a>
                     </li>
                     <li>
-                        <a href="">Community</a>
+                        <a href="./community-page.html">Community</a>
                     </li>
                 </ul>
             </div>
