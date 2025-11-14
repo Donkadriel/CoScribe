@@ -8,16 +8,66 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M2 17L12 22L22 17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M2 12L12 17L22 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            <span>CoScribe</span>
-        </div>
-    </header>
+            <div class="logo">
+            <img src="../icons/book-open.png" alt=""><p>CoScribe</p>
+            </div> 
+            <nav>
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a class="explore" href="#">Explore</a></li>
+                    <li><a href="./writing-studio.html">Write</a></li>
+                </ul>
+            </nav>
+            <div>
+                <i class="fa-solid fa-search"></i>
+                <input type="text" placeholder="Search articles, tags, or authors">
+                <a href=""><img class="bell" src="../icons/bell.png" alt=""></a>
+                <a href="./user-profile.html"><img src="../avatar/androgynous-avatar-non-binary-queer-person (1).jpg"
+                        alt=""></a>
+            </div>
+        </header>
 
+          <section class="wholebody">
+
+            <!-- left side bar nav -->
+            <div class="leftside-nav">
+                <nav>
+                    <ul>
+
+                        <a href="./home.html">
+                            <li>
+                                <img src="../icons/book-open-bl.png" alt=""></i>Home
+                            </li>
+                        </a>
+
+                        <a href="./user-profile.html">
+                            <li>
+                                <img src="../icons/user.png" alt="">
+                                My Profile
+                            </li>
+                        </a>
+
+                        <a href="./article-view.html">
+                            <li>
+                                <img src="../icons/square-pen.png" alt="">
+                                My Articles
+                            </li>
+                        </a>
+
+                        <a href="./author-analytics.html">
+                            <li>
+                                <img src="../icons/chart-column-increasing.png" alt="">
+                                </i> Analytics
+                            </li>
+                        </a>
+
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Right side / Main content area -->
+
+    <div class="content-area">
     <div class="container">
         <aside class="sidebar">
             <section class="trending-section">
@@ -215,10 +265,43 @@
             </div>
         </main>
     </div>
+    </div>
+
+          </section>
     
     <footer>
-        <p>© 2025 CoScribe. All rights reserved.</p>
-    </footer>
+            <div class="footer-div1">
+                <ul>
+                    <li>
+                        <a href="">Podcast</a>
+                    </li>
+                    <li>
+                        <a href="">Resources</a>
+                    </li>
+                    <li>
+                        <a href="./community-page.html">Community</a>
+                        
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-div2">
+                <ul>
+                    <li>
+                        <a href=""><img src="../icons/facebook.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="../icons/twitter.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="../icons/linkedin.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="../icons/github.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
     <script src="../js/main.js"></script>
 </body>
 </html>
