@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/resources.css">
+    
+</head>
+<body>
+   <div class="container">
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Resources Grid -->
+            <section class="resources-grid">
+                <div class="resource-card">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Advanced React</h3>
+                    <p>A comprehensive<br> guide to mastering.</p>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Effective Project Management</h3>
+                    <p>Explore various<br> methodologies.</p>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>The Future of AI<br> in Africa</h3>
+                    <p>An insightful<br> article discussing<br> the future.</p>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Introduction to Cloud Computing</h3>
+                    <p>Beginner-friendly material covering the basics.</p>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Technical Writing Guidelines</h3>
+                    <p>Guidelines and tips for creating clear, concise docs.</p>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Data Science</h3>
+                    <p>A detailed roadmap for aspiring data scientists.</p>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-users"></i>
+                    <h3>User Experience</h3>
+                    <p>An overview of core UX principles and best practices.</p>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-coins"></i>
+                    <h3>Financial Literacy<br> for Teens</h3>
+                    <p>Essential knowledge and practical tips.</p>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Mastering Public Speaking</h3>
+                    <p>Techniques and exercises to improve confidence.</p>
+                    <button class="download-btn">Download</button>
+                </div>
+            </section>
+            <!-- Right Column -->
+            <div class="right-column">
+                <!-- Submit Panel -->
+                <div class="submit-panel">
+                    <h2>Submit New Resource</h2>
+                    <form id="submitForm">
+                        <label>Title</label>
+                        <input type="text" placeholder="Enter resource title" required>
+                        <label>Description</label>
+                        <textarea placeholder="Provide a brief description of the resource" required></textarea>
+                        <label>File Upload</label>
+                        <div class="file-upload">
+                            <input type="file" id="fileInput" required>
+                            <label for="fileInput" class="file-label">Upload File</label>
+                            <span id="fileName">No file chosen</span>
+                        </div>
+                        <label>Tags</label>
+                        <input type="text" placeholder="e.g. Education, Programming, AI" id="tagsInput">
+                        <div class="tag-suggestions">
+                            <span class="tag">Education</span>
+                            <span class="tag">Tutorial</span>
+                            <span class="tag">Development</span>
+                            <span class="tag">AI</span>
+                            <span class="tag">Design</span>
+                        </div>
+                        <button type="submit" class="submit-btn">Submit Resource</button>
+                    </form>
+                </div>
+                <!-- Admin Moderation -->
+                <div class="moderation-panel">
+                    <h2>Admin Moderation</h2>
+                    <div class="pending-resource">
+                        <h3>Introduction to Quantum Computing</h3>
+                        <p>A submitted resource explaining the basic concepts and principles of quantum.</p>
+                        <div class="mod-actions">
+                            <button class="approve"><i class="fas fa-check"></i> Approve</button>
+                            <button class="reject"><i class="fas fa-times"></i> Reject</button>
+                            <button class="preview"><i class="fas fa-eye"></i> Preview</button>
+                        </div>
+                    </div>
+                    <div class="pending-resource">
+                        <h3>Sustainable Energy Solutions</h3>
+                        <p>A new submission covering various sustainable energy technologies and their applications.</p>
+                        <div class="mod-actions">
+                            <button class="approve"><i class="fas fa-check"></i> Approve</button>
+                            <button class="reject"><i class="fas fa-times"></i> Reject</button>
+                            <button class="preview"><i class="fas fa-eye"></i> Preview</button>
+                
+                        </div>
+                    </div>
+                    <div class="pending-resource">
+                        <h3>Art of Digital Photography</h3>
+                        <p>An article focused on advanced digital photography techniques, including lighting and composition.</p>
+                        <div class="mod-actions">
+                            <button class="approve"><i class="fas fa-check"></i> Approve</button>
+                            <button class="reject"><i class="fas fa-times"></i> Reject</button>
+                            <button class="preview"><i class="fas fa-eye"></i> Preview</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!---Linking my js file-->
+    <script src="../js/resources.js"></script>
+</body>
+</html>
