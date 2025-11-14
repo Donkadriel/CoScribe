@@ -22,43 +22,38 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+
 .logo {
     font-size: 28px;
     font-weight: 700;
     color: #2EC4E6;
     margin-bottom: 48px;
     display: flex;
-    text-align: left;
-    gap: 8px;
-}
-.logo .p { 
-    width: 36px;
-    height: 36px;
-    border-radius: 8px;
-    display: flex;
-    align-items: left;
- /*   justify-content: center; */
-    font-weight: bold;
-    font-size: 20px;
-}
+    justify-content: center;
+    align-items: center; 
+    height: 50px;
 
 
-    
-  /*  div{
+    img {
+            background-color: #2EC4E6;
+            color: white;
+            margin-right: 10px;
+            width: 40px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+     p {
+        font-size: 28px;
+        color: #2EC4E6;
+        font-weight: 700;
         display: flex;
-        align-items: left;
-        position: relative;
+        align-self: center;
 
-        .fa-book{
-            position: absolute;
-            left: -10px;
-        }
-
-        i{
-            padding: 0 20px;
-        }
-    }   */
-
+        
+    }
+}
 
 .signup-card {
     background: white;
