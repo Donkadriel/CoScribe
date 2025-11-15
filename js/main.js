@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const emailInput = document.getElementById("email");
     const passwordInput = document.getElementById("password");
     const loginBtn = document.getElementById("loginBtn");
+    lucide.createIcons();
 
     // Add event listeners for input validation or other logic if needed
     emailInput.addEventListener("input", function() {
