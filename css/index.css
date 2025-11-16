@@ -128,3 +128,6 @@ a {
     text-decoration: none;
     color: #2EC4E6;
 }
+.error-msg{
+    color: red;
+}

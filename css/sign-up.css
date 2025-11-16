@@ -165,3 +165,6 @@ footer {
     font-size: 13px;
     color: #aaa;
 } 
+.error-msg{
+    color: red;
+}
