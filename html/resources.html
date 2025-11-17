@@ -1,15 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resources Hub</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="../css/resources.css">
-    
+    <title>CoScribe</title>
+    <link rel="shortcut icon" href="../icons/book-open.png" type="image/x-icon">
 </head>
+
 <body>
-   <div class="container">
+    <div class="container">
+      <header>
+            <div class="logo">
+            <img src="../icons/book-open.png" alt=""><p>CoScribe</p>
+            </div> 
+            <nav>
+                <ul>
+                    <li><a class="#" href="#">Home</a></li>
+                    <li><a href="./explore-page.html">Explore</a></li>
+                    <li><a href="./writing-studio.html">Write</a></li>
+                </ul>
+            </nav>
+            <div>
+                <i class="fa-solid fa-search"></i>
+                <input type="text" placeholder="Search articles, tags, or authors">
+                <a href=""><img class="bell" src="../icons/bell.png" alt=""></a>
+                <a href="./user-profile.html"><img src="../avatar/androgynous-avatar-non-binary-queer-person (1).jpg"
+                        alt=""></a>
+            </div>
+        </header>
+
+        <section class="wholebody">
+
+            <!-- left side bar nav -->
+            <div class="leftside-nav">
+                <nav>
+                    <ul>
+
+                        <a href="./home.html">
+                            <li>
+                                <img src="../icons/book-open-bl.png" alt=""></i>Home
+                            </li>
+                        </a>
+
+                        <a href="./user-profile.html">
+                            <li>
+                                <img src="../icons/user.png" alt="">
+                                My Profile
+                            </li>
+                        </a>
+
+                        <a href="./article-view.html">
+                            <li>
+                                <img src="../icons/square-pen.png" alt="">
+                                My Articles
+                            </li>
+                        </a>
+
+                        <a href="./author-analytics.html">
+                            <li>
+                                <img src="../icons/chart-column-increasing.png" alt="">
+                                </i> Analytics
+                            </li>
+                        </a>
+
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Right side / Main content area -->
+            <div class="content-area">
         <!-- Main Content -->
         <main class="main-content">
             <!-- Resources Grid -->
@@ -131,9 +201,49 @@
                 </div>
             </div>
         </main>
-    </div>
+</div>
 
+        </section>
+
+        <footer>
+            <div class="footer-div1">
+                <ul>
+                    <li>
+                        <a href="">Podcast</a>
+                    </li>
+                    <li>
+                        <a href="./resources.html">Resources</a>
+                    </li>
+                    <li>
+                        <a href="./community-page.html">Community</a>
+                        
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-div2">
+                <ul>
+                    <li>
+                        <a href=""><img src="../icons/facebook.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="../icons/twitter.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="../icons/linkedin.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="../icons/github.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
     <!---Linking my js file-->
     <script src="../js/resources.js"></script>
 </body>
+
 </html>
+
+
+
