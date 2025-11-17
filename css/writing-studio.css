@@ -171,7 +171,7 @@ header{
        
 
 
-        i{
+        svg{
             font-size: 25px;
             width: 12.5%;
             
@@ -198,6 +198,20 @@ header{
     margin: 40px auto;
     border-radius: 4px;
    
+}
+
+.row1{
+    display: flex;
+    align-items: center;
+    gap: 8%;
+    flex-wrap: wrap;
+}
+
+.row2{
+     display: flex;
+    align-items: center;
+    gap: 8%;
+    border-bottom:3px solid  rgba(243, 243, 243, 0.712);
 }
 
 
