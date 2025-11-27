@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../css/resources.css">
+    <title>CoScribe</title>
+    <link rel="shortcut icon" href="../icons/book-open.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+      <header>
+            <div class="logo">
+            <img src="../icons/book-open.png" alt=""><p>CoScribe</p>
+            </div> 
+            <nav>
+                <ul>
+                    <li><a class="#" href="#">Home</a></li>
+                    <li><a href="./explore-page.html">Explore</a></li>
+                    <li><a href="./writing-studio.html">Write</a></li>
+                </ul>
+            </nav>
+            <div>
+                <i class="fa-solid fa-search"></i>
+                <input type="text" placeholder="Search articles, tags, or authors">
+                <a href=""><img class="bell" src="../icons/bell.png" alt=""></a>
+                <a href="./user-profile.html"><img src="../avatar/androgynous-avatar-non-binary-queer-person (1).jpg"
+                        alt=""></a>
+            </div>
+        </header>
+
+        <section class="wholebody">
+
+            <!-- left side bar nav -->
+            <div class="leftside-nav">
+                <nav>
+                    <ul>
+
+                        <a href="./home.html">
+                            <li>
+                                <img src="../icons/book-open-bl.png" alt=""></i>Home
+                            </li>
+                        </a>
+
+                        <a href="./user-profile.html">
+                            <li>
+                                <img src="../icons/user.png" alt="">
+                                My Profile
+                            </li>
+                        </a>
+
+                        <a href="./article-view.html">
+                            <li>
+                                <img src="../icons/square-pen.png" alt="">
+                                My Articles
+                            </li>
+                        </a>
+
+                        <a href="./author-analytics.html">
+                            <li>
+                                <img src="../icons/chart-column-increasing.png" alt="">
+                                </i> Analytics
+                            </li>
+                        </a>
+
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Right side / Main content area -->
+            <div class="content-area">
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Resources Grid -->
+            <section class="resources-grid">
+                <div class="resource-card">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Advanced React</h3>
+                    <p>A comprehensive<br> guide to mastering.</p>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Effective Project Management</h3>
+                    <p>Explore various<br> methodologies.</p>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>The Future of AI<br> in Africa</h3>
+                    <p>An insightful<br> article discussing<br> the future.</p>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Introduction to Cloud Computing</h3>
+                    <p>Beginner-friendly material covering the basics.</p>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Technical Writing Guidelines</h3>
+                    <p>Guidelines and tips for creating clear, concise docs.</p>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Data Science</h3>
+                    <p>A detailed roadmap for aspiring data scientists.</p>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-users"></i>
+                    <h3>User Experience</h3>
+                    <p>An overview of core UX principles and best practices.</p>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-coins"></i>
+                    <h3>Financial Literacy<br> for Teens</h3>
+                    <p>Essential knowledge and practical tips.</p>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Mastering Public Speaking</h3>
+                    <p>Techniques and exercises to improve confidence.</p>
+                    <button class="download-btn">Download</button>
+                </div>
+            </section>
+            <!-- Right Column -->
+            <div class="right-column">
+                <!-- Submit Panel -->
+                <div class="submit-panel">
+                    <h2>Submit New Resource</h2>
+                    <form id="submitForm">
+                        <label>Title</label>
+                        <input type="text" placeholder="Enter resource title" required>
+                        <label>Description</label>
+                        <textarea placeholder="Provide a brief description of the resource" required></textarea>
+                        <label>File Upload</label>
+                        <div class="file-upload">
+                            <input type="file" id="fileInput" required>
+                            <label for="fileInput" class="file-label">Upload File</label>
+                            <span id="fileName">No file chosen</span>
+                        </div>
+                        <label>Tags</label>
+                        <input type="text" placeholder="e.g. Education, Programming, AI" id="tagsInput">
+                        <div class="tag-suggestions">
+                            <span class="tag">Education</span>
+                            <span class="tag">Tutorial</span>
+                            <span class="tag">Development</span>
+                            <span class="tag">AI</span>
+                            <span class="tag">Design</span>
+                        </div>
+                        <button type="submit" class="submit-btn">Submit Resource</button>
+                    </form>
+                </div>
+                <!-- Admin Moderation -->
+                <div class="moderation-panel">
+                    <h2>Admin Moderation</h2>
+                    <div class="pending-resource">
+                        <h3>Introduction to Quantum Computing</h3>
+                        <p>A submitted resource explaining the basic concepts and principles of quantum.</p>
+                        <div class="mod-actions">
+                            <button class="approve"><i class="fas fa-check"></i> Approve</button>
+                            <button class="reject"><i class="fas fa-times"></i> Reject</button>
+                            <button class="preview"><i class="fas fa-eye"></i> Preview</button>
+                        </div>
+                    </div>
+                    <div class="pending-resource">
+                        <h3>Sustainable Energy Solutions</h3>
+                        <p>A new submission covering various sustainable energy technologies and their applications.</p>
+                        <div class="mod-actions">
+                            <button class="approve"><i class="fas fa-check"></i> Approve</button>
+                            <button class="reject"><i class="fas fa-times"></i> Reject</button>
+                            <button class="preview"><i class="fas fa-eye"></i> Preview</button>
+                
+                        </div>
+                    </div>
+                    <div class="pending-resource">
+                        <h3>Art of Digital Photography</h3>
+                        <p>An article focused on advanced digital photography techniques, including lighting and composition.</p>
+                        <div class="mod-actions">
+                            <button class="approve"><i class="fas fa-check"></i> Approve</button>
+                            <button class="reject"><i class="fas fa-times"></i> Reject</button>
+                            <button class="preview"><i class="fas fa-eye"></i> Preview</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+</div>
+
+        </section>
+
+        <footer>
+            <div class="footer-div1">
+                <ul>
+                    <li>
+                        <a href="">Podcast</a>
+                    </li>
+                    <li>
+                        <a href="./resources.html">Resources</a>
+                    </li>
+                    <li>
+                        <a href="./community-page.html">Community</a>
+                        
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-div2">
+                <ul>
+                    <li>
+                        <a href=""><img src="../icons/facebook.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="../icons/twitter.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="../icons/linkedin.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="../icons/github.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <!---Linking my js file-->
+    <script src="../js/resources.js"></script>
+</body>
+
+</html>
+
+
+

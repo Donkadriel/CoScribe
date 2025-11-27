@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoScribe - Explore Articles</title>
+    <link rel="stylesheet" href="../css/explore-page.css">
+</head>
+<body>
+    <header>
+            <div class="logo">
+            <img src="../icons/book-open.png" alt=""><p>CoScribe</p>
+            </div> 
+            <nav>
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a class="explore" href="#">Explore</a></li>
+                    <li><a href="./writing-studio.html">Write</a></li>
+                </ul>
+            </nav>
+            <div>
+                <i class="fa-solid fa-search"></i>
+                <input type="text" placeholder="Search articles, tags, or authors">
+                <a href=""><img class="bell" src="../icons/bell.png" alt=""></a>
+                <a href="./user-profile.html"><img src="../avatar/androgynous-avatar-non-binary-queer-person (1).jpg"
+                        alt=""></a>
+            </div>
+        </header>
+
+          <section class="wholebody">
+
+            <!-- left side bar nav -->
+            <div class="leftside-nav">
+                <nav>
+                    <ul>
+
+                        <a href="./home.html">
+                            <li>
+                                <img src="../icons/book-open-bl.png" alt=""></i>Home
+                            </li>
+                        </a>
+
+                        <a href="./user-profile.html">
+                            <li>
+                                <img src="../icons/user.png" alt="">
+                                My Profile
+                            </li>
+                        </a>
+
+                        <a href="./article-view.html">
+                            <li>
+                                <img src="../icons/square-pen.png" alt="">
+                                My Articles
+                            </li>
+                        </a>
+
+                        <a href="./author-analytics.html">
+                            <li>
+                                <img src="../icons/chart-column-increasing.png" alt="">
+                                </i> Analytics
+                            </li>
+                        </a>
+
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Right side / Main content area -->
+
+    <div class="content-area">
+    <div class="container">
+        <aside class="sidebar">
+            <section class="trending-section">
+                <h3>Trending Topics</h3>
+                <ul class="topic-list">
+                    <li>Artificial Intelligence</li>
+                    <li>Machine Learning</li>
+                    <li>Data Science</li>
+                    <li>Web Development</li>
+                    <li>Cloud Computing</li>
+                </ul>
+            </section>
+
+            <section class="tags-section">
+                <h3>Popular Tags</h3>
+                <div class="tag-cloud">
+                    <span class="tag">AI</span>
+                    <span class="tag">React</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Frontend</span>
+                    <span class="tag">Backend</span>
+                    <span class="tag">Database</span>
+                    <span class="tag">DevOps</span>
+                    <span class="tag">Security</span>
+                </div>
+            </section>
+
+            <section class="newsletter-section">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter for the latest articles and updates.</p>
+                <input type="email" placeholder="Enter your email">
+                <button class="subscribe-btn">Subscribe</button>
+            </section>
+        </aside>
+
+        <main class="main-content">
+            <div class="search-bar">
+                <input type="text" placeholder="Search articles...">
+                <div class="filters">
+                    <select>
+                        <option>Category</option>
+                    </select>
+                    <select>
+                        <option>Tags</option>
+                    </select>
+                    <select>
+                        <option>Date Range</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="articles-grid">
+                <article class="article-card">
+                    <h2>The Future of AI in Content Creation</h2>
+                    <p>Artificial intelligence is rapidly transforming how content is generated, from automated</p>
+                    <p class="author">Dr. Evelyn Reed</p>
+                    <div class="tags">
+                        <span class="tag">AI</span>
+                        <span class="tag">Technology</span>
+                        <span class="tag">Future</span>
+                    </div>
+                    <div class="stats">
+                        <span>♡ 1,200</span>
+                        <span>👁 15,400</span>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <h2>Building Scalable Web Applications with React Hooks</h2>
+                    <p>React Hooks have fundamentally changed how developers build modern web</p>
+                    <p class="author">Alex Johnson</p>
+                    <div class="tags">
+                        <span class="tag">React</span>
+                        <span class="tag">WebDev</span>
+                        <span class="tag">Frontend</span>
+                    </div>
+                    <div class="stats">
+                        <span>♡ 850</span>
+                        <span>👁 13,100</span>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <h2>Demystifying Quantum Computing for Developers</h2>
+                    <p>Quantum computing, once a theoretical concept, is now on the brink of practical</p>
+                    <p class="author">Dr. Lana Petrova</p>
+                    <div class="tags">
+                        <span class="tag">Science</span>
+                        <span class="tag">Quantum Computing</span>
+                    </div>
+                    <div class="stats">
+                        <span>♡ 720</span>
+                        <span>👁 9,800</span>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <h2>The Rise of Serverless Architectures: A Paradigm Shift</h2>
+                    <p>Serverless computing is gaining traction, promising reduced operational overhead and</p>
+                    <p class="author">Michael Chen</p>
+                    <div class="tags">
+                        <span class="tag">Cloud</span>
+                        <span class="tag">Backend</span>
+                        <span class="tag">DevOps</span>
+                    </div>
+                    <div class="stats">
+                        <span>♡ 900</span>
+                        <span>👁 7,500</span>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <h2>Cybersecurity Trends 2024: Protecting Your Digital Assets</h2>
+                    <p>As cyber threats become more sophisticated, staying ahead is crucial. This article outlines the</p>
+                    <p class="author">Sarah Lee</p>
+                    <div class="tags">
+                        <span class="tag">Security</span>
+                        <span class="tag">Technology</span>
+                        <span class="tag">Cyber</span>
+                    </div>
+                    <div class="stats">
+                        <span>♡ 980</span>
+                        <span>👁 11,000</span>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <h2>Exploring the Ethics of Data Science and Privacy</h2>
+                    <p>The immense power of data science comes with significant ethical responsibilities. This</p>
+                    <p class="author">Dr. John Smith</p>
+                    <div class="tags">
+                        <span class="tag">Data</span>
+                        <span class="tag">Ethics</span>
+                        <span class="tag">Privacy</span>
+                    </div>
+                    <div class="stats">
+                        <span>♡ 550</span>
+                        <span>👁 6,800</span>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <h2>Mastering Python for Data Analysis and Visualization</h2>
+                    <p>Python remains the go-to language for data professionals due to its versatile libraries and</p>
+                    <p class="author">Maria Garcia</p>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Data</span>
+                        <span class="tag">Programming</span>
+                    </div>
+                    <div class="stats">
+                        <span>♡ 1,100</span>
+                        <span>👁 13,500</span>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <h2>The Evolution of User Interface Design in the Last Decade</h2>
+                    <p>User interface design has seen dramatic shifts, moving from skeuomorphism to flat design,</p>
+                    <p class="author">Emily White</p>
+                    <div class="tags">
+                        <span class="tag">UI/UX</span>
+                        <span class="tag">Design</span>
+                        <span class="tag">Frontend</span>
+                    </div>
+                    <div class="stats">
+                        <span>♡ 780</span>
+                        <span>👁 9,100</span>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <h2>Blockchain Beyond Cryptocurrencies: New Applications</h2>
+                    <p>While often associated with Bitcoin, blockchain technology offers far more than just digital</p>
+                    <p class="author">David Kim</p>
+                    <div class="tags">
+                        <span class="tag">Blockchain</span>
+                        <span class="tag">Technology</span>
+                        <span class="tag">Finance</span>
+                    </div>
+                    <div class="stats">
+                        <span>♡ 650</span>
+                        <span>👁 8,200</span>
+                    </div>
+                </article>
+            </div>
+
+            <div class="load-more">
+                <button class="load-more-btn">Load More</button>
+            </div>
+
+            <div class="public-viewer">
+                <span>👁 You are a public viewer</span>
+                <button class="signup-btn">Sign up</button>
+            </div>
+        </main>
+    </div>
+    </div>
+
+          </section>
+    
+    <footer>
+            <div class="footer-div1">
+                <ul>
+                    <li>
+                        <a href="">Podcast</a>
+                    </li>
+                    <li>
+                        <a href="./resources.html">Resources</a>
+                    </li>
+                    <li>
+                        <a href="./community-page.html">Community</a>
+                        
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-div2">
+                <ul>
+                    <li>
+                        <a href=""><img src="../icons/facebook.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="../icons/twitter.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="../icons/linkedin.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="../icons/github.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>
