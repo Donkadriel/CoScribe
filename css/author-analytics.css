@@ -80,16 +80,15 @@ header{
             padding: 0 20px;
         }
 
-        input{
+         input {
             height: 40px;
-            padding: 20px 0;
             border-radius: 5px;
-            width: 235px;
+            width: 30dvw;
             padding-left: 30px;
             border: 1px solid rgb(228, 226, 226);
         }
         
-        a{
+        /* a{
             text-decoration: none;
 
             img{
@@ -102,7 +101,7 @@ header{
                 width: 20px;
                 margin: 0 25px;
             }
-        }
+        } */
     }
 }
 
