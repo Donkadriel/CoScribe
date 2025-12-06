@@ -1,0 +1,121 @@
+{
+    "sections": [
+        {
+           "sectionTitle": "Featured Articles",
+           "Articles": [
+            {
+                "image": "./avatar/medium-shot-friends-eating-pizza.jpg",
+                "alt": "image desscription",
+                "heading": "The Future of AI in Creative Writing",
+                "paragraph": "Explore how artificial intelligence is shaping the landscape of storytelling and creativity.",
+                "buttons": ["Technology", "AI", "Future"],
+                "author": "Ekanem Favour",
+                "date": "July 24th, 2020"
+            },
+            {
+                "image": "./avatar/smart-lamp-table-arrangement.jpg",
+                "alt": "image desscription",
+                "heading": "Unlocking Your Inner Storytelling: A Beginner's Guide",
+                "paragraph": "Practical tips and exercises to help you overcome writer's block and start crafting your own stories.",
+                "buttons": ["Writing", "Creativity"],
+                "author": "Marcus Thomas",
+                "date": "july 24th, 2024"
+            },
+            {
+                "image": "./avatar/aerial-shot-beautiful-brown-hills-misty-weather.jpg",
+                "alt": "image desscription",
+                "heading": "Building Bridges: How Stories Connect Us All",
+                "paragraph": "Delve into the profound impact of shared narratives on human connection, empathy and understanding across cultures.",
+                "buttons": ["Culture", "Community"],
+                "author": "Sophia Chen",
+                "date": "july 22nd, 2024"
+            }
+           ] 
+        },
+        {
+           "sectionTitle": "Trending Today",
+           "Articles": [
+            {
+                "image": "../avatar/aerial-shot-beautiful-brown-hills-misty-weather.jpg",
+                "alt": "image desscription",
+                "heading": "The Art of Productivity: Writing More, Stressing less",
+                "paragraph": "Discover effective strategies to boost your writing output without sacrificing your well-being.",
+                "buttons": ["Productivity", "Wellness"],
+                "author": "Destiny Eni",
+                "date": "July 25th, 2024"
+            },
+            {
+                "image": "../avatar/silhouette-person-standing-top-hill-beautiful-colorful-sky-morning.jpg",
+                "alt": "image desscription",
+                "heading": "Beyond the Words: Visual Storytelling in the digital age",
+                "paragraph": "Learn how integrating powerful visuals can elevate your narratives and capture your audience's imagination.",
+                "buttons": ["Art", "Digital Media"],
+                "author": "Jane Elton",
+                "date": "july 25th, 2024"
+            },
+            {
+                "image": "..//avatar/young-adult-enjoying-yoga-nature.jpg",
+                "alt": "image desscription",
+                "heading": "Mindfulness for Writers: Finding Focus in a distracted World",
+                "paragraph": "Techniques to cultivate a focused mind, reduce distractions and find peace in the writing process.",
+                "buttons": ["Wellness", "Mindfulness"],
+                "author": "Charles Green",
+                "date": "july 21st, 2024"
+            }
+           ] 
+        },
+        {
+           "sectionTitle": "Fresh Read",
+           "Articles": [
+            {
+                "image": "../avatar/magic-ball-near-lights.jpg",
+                "alt": "image desscription",
+                "heading": "The Genesis of an Idea: From Spark to Story",
+                "paragraph": "Trace the journey of a creative concept from its initial spark to a fully developed narrative",
+                "buttons": ["Creativity", "Inspiration"],
+                "author": "Macabeth Elton",
+                "date": "July 21st, 2024"                          
+            },
+            {
+                "image": "../avatar/landscape-shot-tall-tree-park-sunset.jpg",
+                "alt": "image desscription",
+                "heading": "Culinary Narratives: The Stories behind Global Dishes",
+                "paragraph": "Explore the rich history and cultural significance embedded in the world's most beloved recipes.",
+                "buttons": ["Food", "Culture"],
+                "author": "Edan Njokwu",
+                "date": "July 21st, 2024"
+            },
+            {
+                "image": "../avatar/astral-concept-wallpaper.jpg",
+                "alt": "image desscription",
+                "heading": "Exploring the Unknown: Adventures in Sci-Fi World Building",
+                "paragraph": "Dive deep into the intricate art of crafting believable and immersive universe for science",
+                "buttons": ["Sci-Fi", "World Building"],
+                "author": "George Owell",
+                "date": "July 22nd, 2024"
+            }
+           ] 
+        }
+    ],
+
+
+    "sidebar": 
+  {
+    "categories": [
+    {
+      "title": "Popular Categories",
+      "items": ["Technology", "Science", "Culture", "Business", "Health", "Art", "Travel", "Food"]
+    },
+    {
+      "title": "Popular Tags",
+      "items": ["#AI", "#Future", "#Wellness", "#Sustainability", "#Innovation", "#Space", "#Creativity", "#Productivity"]
+    }
+    ],
+    "join": {
+      "title": "Join the Coscribe Community",
+      "text": "Connect with Passionate writers and discover inspiring stories. it is free.",
+      "button": "Sign up Free"
+    }
+  }
+  
+}

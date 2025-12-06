@@ -15,7 +15,7 @@
 | Name  | Page Worked On | GitHub |
 |-------|----------------|--------|
 | **Offordile Obumneme Dennis** *(Team Lead)* | Navbar, Author Analytics | [Donkadriel](https://github.com/Donkadriel)|
-| **Ekanem Favour**|Home Page/Landing Page  | [fay22ekanem]. |
+| **Ekanem Favour**|Home Page/Landing Page  | [fay22ekanem](https://github.com/fay22ekanem). |
 | | | |
 | **Dominic Soudo** |Admin-Dashboard/sign-up/forget-password page| [Dominic-Soudo](https://github.com/Dominic-Soudo)|
 | | | |
